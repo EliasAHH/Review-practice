@@ -1,68 +1,74 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Review Prep
 
-## Available Scripts
+This is study guide I created to help you best prepare for your upcoming review. Along with this review is a React app attached in which you can practice using functions like sort and filter and other things you may feel weak on. 
 
-In the project directory, you can run:
+## Key Concepts
 
-### `yarn start`
+The React rubric is designed to confirm understanding of the following key concepts:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Essential
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- Use `state` to handle the saving, and updating of components
+- Create functions that should be actionable by a user event (onClick, onChange)
+- Explain the flow of data from React, through Redux and back to React (Store, Reducer, React)
+- Write standard Javascript code under the pressure of an in person interview (You got this!! Practice coding infront of people)
+- Understand how to pass data/functions through to components using props
 
-### `yarn test`
+## Project Requirements 
+ ### Please make sure you have all these completed before your interview.
+- The code should be written in ES6 as much as possible
+- Use the `create*react*app` generator to start your project.
+- Your app should have one HTML page to render your React-Redux application
+- There should be 2 container components
+- There should be 5 stateless components
+- There should be 3 routes
+- The Application must make use of `react*router` and proper RESTful routing
+- Use Redux middleware to respond to and modify state change
+- Make use of async actions to send data to and receive data from a server
+- Your Rails API should handle the data persistence. You should be using `fetch()` within your actions to GET and POST data from your API - do not use jQuery methods.
+- Your client\*side application should handle the display of data with minimal data manipulation
+- Your application should have some minimal styling
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+###  Part 1
+- You are going to get treated like this is a real interview, meaning every part of your code can be questioned at any point during the interview. Please make sure to review your code before your interview and feel confident explaining EVERYTHING. 
 
-### `yarn build`
+- Come prepared, drink lots of water, and always remember to BREATH! You've done this hundred's of times at this point , this time is no different. You got this! Remember to have fun with it as well.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+###  Part 2 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- A walkthrough of your app 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Explain full flow of when a user clicks on an event or something and how data flows from react - redux - action creators - reducers - mapStateToProps. Explain the whole flow! 
 
-### `yarn eject`
+- Understand the order react renders and mounts 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Things to study for that have to do with part 2
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- What's the difference between State and Props?
+- WHat's the difference between a functional and class based component? (Why use one over the other at times)
+- What's the importance of setState? Why can't we mutate state directly like this this.state = "Hello"
+- Difference between Arrow functions and regular function declaration? 
+- What is a Virtual DOM and how does it differ from a regular DOM? 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Things not as important to know but still pretty good to understand|
+   - Lifecycle methods and what they do for us 
+   - React Hooks
+   - I might add more to the list a bit later. 
 
-## Learn More
+### Part 3 - Live coding 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+I can't help you with this as this showcases your own knowledge and how you can code under pressure but I have attached a react app that you can use as your playground. You can test different JavaScript functionalities here. There is no Redux attached on this so this will give you practice on changing functional components into class components to accomodate you as needed. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Final Thoughts 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+I know this isn't much but I feel this will help you to be as prepared as you're going to be for this review. Every cohort lead is different on how they run their individual assessments but, these are the important topics to understand in React. If you're able to understand these and properly explain it you're going to do AMAZING! 
 
-### Analyzing the Bundle Size
+Best of luck and I hope you're able to achieve your goal at the end of the day! 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
