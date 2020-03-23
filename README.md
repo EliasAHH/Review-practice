@@ -42,6 +42,8 @@ The React rubric is designed to confirm understanding of the following key conce
 
 - Understand the order react renders and mounts 
 
+- Understand Thunk. How's it's used, why it's used. ( Remember Thunk is a Middleware)
+
 ### Things to study for that have to do with part 2
 
 - What's the difference between State and Props?
